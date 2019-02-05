@@ -298,7 +298,7 @@ th {
     border-top-color: #000 !important;
   }
 
-  .lRaleway {
+  .label {
     border: 1px solid #000;
   }
 
@@ -3089,7 +3089,7 @@ legend {
   border-bottom: 1px solid #e5e5e5;
 }
 
-lRaleway {
+label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
@@ -3248,8 +3248,8 @@ input[type="search"] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.radio lRaleway,
-.checkbox lRaleway {
+.radio label,
+.checkbox label {
   min-height: 20px;
   padding-left: 20px;
   margin-bottom: 0;
@@ -3301,9 +3301,9 @@ input[type="checkbox"] {
   cursor: not-allowed;
 }
 
-.radio.disabled lRaleway, fieldset[disabled] .radio lRaleway,
-.checkbox.disabled lRaleway, fieldset[disabled]
-.checkbox lRaleway {
+.radio.disabled label, fieldset[disabled] .radio label,
+.checkbox.disabled label, fieldset[disabled]
+.checkbox label {
   cursor: not-allowed;
 }
 
@@ -3463,11 +3463,11 @@ select[multiple].input-lg,
 }
 
 .has-success .help-block,
-.has-success .control-lRaleway,
+.has-success .control-label,
 .has-success .radio,
 .has-success .checkbox,
 .has-success .radio-inline,
-.has-success .checkbox-inline, .has-success.radio lRaleway, .has-success.checkbox lRaleway, .has-success.radio-inline lRaleway, .has-success.checkbox-inline lRaleway {
+.has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
   color: #3c763d;
 }
 .has-success .form-control {
@@ -3490,11 +3490,11 @@ select[multiple].input-lg,
 }
 
 .has-warning .help-block,
-.has-warning .control-lRaleway,
+.has-warning .control-label,
 .has-warning .radio,
 .has-warning .checkbox,
 .has-warning .radio-inline,
-.has-warning .checkbox-inline, .has-warning.radio lRaleway, .has-warning.checkbox lRaleway, .has-warning.radio-inline lRaleway, .has-warning.checkbox-inline lRaleway {
+.has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
   color: #8a6d3b;
 }
 .has-warning .form-control {
@@ -3517,11 +3517,11 @@ select[multiple].input-lg,
 }
 
 .has-error .help-block,
-.has-error .control-lRaleway,
+.has-error .control-label,
 .has-error .radio,
 .has-error .checkbox,
 .has-error .radio-inline,
-.has-error .checkbox-inline, .has-error.radio lRaleway, .has-error.checkbox lRaleway, .has-error.radio-inline lRaleway, .has-error.checkbox-inline lRaleway {
+.has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
   color: #a94442;
 }
 .has-error .form-control {
@@ -3543,10 +3543,10 @@ select[multiple].input-lg,
   color: #a94442;
 }
 
-.has-feedback lRaleway ~ .form-control-feedback {
+.has-feedback label ~ .form-control-feedback {
   top: 25px;
 }
-.has-feedback lRaleway.sr-only ~ .form-control-feedback {
+.has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
 
@@ -3583,7 +3583,7 @@ select[multiple].input-lg,
   .form-inline .input-group > .form-control {
     width: 100%;
   }
-  .form-inline .control-lRaleway {
+  .form-inline .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
@@ -3594,8 +3594,8 @@ select[multiple].input-lg,
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .form-inline .radio lRaleway,
-  .form-inline .checkbox lRaleway {
+  .form-inline .radio label,
+  .form-inline .checkbox label {
     padding-left: 0;
   }
   .form-inline .radio input[type="radio"],
@@ -3632,7 +3632,7 @@ select[multiple].input-lg,
   clear: both;
 }
 @media (min-width: 768px) {
-  .form-horizontal .control-lRaleway {
+  .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
     padding-top: 15px;
@@ -3642,13 +3642,13 @@ select[multiple].input-lg,
   right: 25px;
 }
 @media (min-width: 768px) {
-  .form-horizontal .form-group-lg .control-lRaleway {
+  .form-horizontal .form-group-lg .control-label {
     padding-top: 14.33333px;
     font-size: 18px;
   }
 }
 @media (min-width: 768px) {
-  .form-horizontal .form-group-sm .control-lRaleway {
+  .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px;
   }
@@ -4916,7 +4916,7 @@ tbody.collapse.in {
   .navbar-form .input-group > .form-control {
     width: 100%;
   }
-  .navbar-form .control-lRaleway {
+  .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
@@ -4927,8 +4927,8 @@ tbody.collapse.in {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .navbar-form .radio lRaleway,
-  .navbar-form .checkbox lRaleway {
+  .navbar-form .radio label,
+  .navbar-form .checkbox label {
     padding-left: 0;
   }
   .navbar-form .radio input[type="radio"],
@@ -5341,7 +5341,7 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 
-.lRaleway {
+.label {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -5353,59 +5353,59 @@ tbody.collapse.in {
   vertical-align: baseline;
   border-radius: .25em;
 }
-.lRaleway:empty {
+.label:empty {
   display: none;
 }
-.btn .lRaleway {
+.btn .label {
   position: relative;
   top: -1px;
 }
 
-a.lRaleway:hover, a.lRaleway:focus {
+a.label:hover, a.label:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
-.lRaleway-default {
+.label-default {
   background-color: #777777;
 }
-.lRaleway-default[href]:hover, .lRaleway-default[href]:focus {
+.label-default[href]:hover, .label-default[href]:focus {
   background-color: #5e5e5e;
 }
 
-.lRaleway-primary {
+.label-primary {
   background-color: #000000;
 }
-.lRaleway-primary[href]:hover, .lRaleway-primary[href]:focus {
+.label-primary[href]:hover, .label-primary[href]:focus {
   background-color: #c01919;
 }
 
-.lRaleway-success {
+.label-success {
   background-color: #5cb85c;
 }
-.lRaleway-success[href]:hover, .lRaleway-success[href]:focus {
+.label-success[href]:hover, .label-success[href]:focus {
   background-color: #449d44;
 }
 
-.lRaleway-info {
+.label-info {
   background-color: #5bc0de;
 }
-.lRaleway-info[href]:hover, .lRaleway-info[href]:focus {
+.label-info[href]:hover, .label-info[href]:focus {
   background-color: #31b0d5;
 }
 
-.lRaleway-warning {
+.label-warning {
   background-color: #f0ad4e;
 }
-.lRaleway-warning[href]:hover, .lRaleway-warning[href]:focus {
+.label-warning[href]:hover, .label-warning[href]:focus {
   background-color: #ec971f;
 }
 
-.lRaleway-danger {
+.label-danger {
   background-color: #d9534f;
 }
-.lRaleway-danger[href]:hover, .lRaleway-danger[href]:focus {
+.label-danger[href]:hover, .label-danger[href]:focus {
   background-color: #c9302c;
 }
 
