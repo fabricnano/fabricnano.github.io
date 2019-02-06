@@ -4790,10 +4790,16 @@ tbody.collapse.in {
 .navbar-brand {
   float: left;
   /* padding: 30px 25px; */
+  /*First Logo style="width:50px" in index and careers and each hire */
   padding: 15px 10px;
   font-size: 18px;
   line-height: 20px;
   height: 80px;
+  /*Second Logo style="width:50px" in index and careers and each hire
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 100px;*/
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
