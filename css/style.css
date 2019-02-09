@@ -7364,9 +7364,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Raleway", arial, sans-serif;
+  /* font-family: Arial; */
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 300;
+  /* font-weight: 300; */
 }
 
 ::-webkit-selection {
