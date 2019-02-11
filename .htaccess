@@ -5,5 +5,5 @@
 RewriteEngine on
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^example\.com$
+RewriteCond %{HTTP_HOST} ^fabricnano\.com$
 RewriteRule ^(.*) http://www.example.com/$1 [R=301]
