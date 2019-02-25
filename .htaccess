@@ -1,9 +1,5 @@
-# Redirect non-www to www:
-# RewriteCond %{HTTP_HOST} !^www\. [NC]
-# RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
-
-# RewriteEngine on
-# RewriteBase /
-#
-# RewriteCond %{HTTP_HOST} ^fabricnano\.com$
-# RewriteRule ^(.*) http://www.example.com/$1 [R=301]
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fabricnano\.com [NC]
+RewriteRule ^(.*)$ http://www.fabricnano.com/$1 [L,R=301]
+</IfModule>
