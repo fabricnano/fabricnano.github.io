@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.fabricnano.com$ [NC]
-RewriteRule ^(.*)$ https://www.fabricnano.com/$1 [L,R=301]
